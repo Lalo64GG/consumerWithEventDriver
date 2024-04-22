@@ -11,7 +11,7 @@ const initBroker = async () => {
                 const datos_pago = msg.content.toString();
                 console.log(datos_pago);
 
-                const response = await axios.post('http://54.160.45.166:3002/pedidos', { datos_pago });
+                const response = await axios.post('http://44.209.194.4 :3002/pedidos', { datos_pago });
 
                 console.log('Respuesta de la API:', response.data);
             } catch (error) {
